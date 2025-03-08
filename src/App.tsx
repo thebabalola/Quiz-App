@@ -5,7 +5,7 @@ import "./styles.css";
 const App: React.FC = () => {
   return (
     <div className="app">
-      <h1>Simple Quiz App</h1>
+      <h1 className="Quiz-title"> Quiz App</h1>
       <Quiz />
     </div>
   );

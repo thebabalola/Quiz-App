@@ -8,7 +8,9 @@ body {
 	height: 100vh;
 	margin: 0;
   }
-  
+  .Quiz-title {
+	color: green;
+  }
   .app {
 	text-align: center;
 	background: #fff;
@@ -30,25 +32,30 @@ body {
   }
   
   /* Options styles */
-  .options-container {
+ .options-container {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 15px; /* Increased space between options */
 	margin-top: 10px;
-  }
+}
   
   button {
-	padding: 10px;
+	padding: 10px; 
+	margin-left: 5px;
+	margin-right: 5px;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
 	font-size: 16px;
 	transition: background-color 0.3s ease;
-  }
+	margin-bottom: 5px; 
+}
   
   button:hover {
-	background-color: #007bff;
-	color: #fff;
+	/* background-color:  */
+	border: 2px solid green;
+	color: green;
+
   }
   
   /* Space between options and next button */
