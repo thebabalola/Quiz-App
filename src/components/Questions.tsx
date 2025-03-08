@@ -1,8 +1,8 @@
 import React from "react";
-import { IQuestion } from "../hooks/useQuiz";
+import { IQuestions } from "../hooks/useQuiz";
 
 interface QuestionProps {
-  questionData: IQuestion;
+  questionData: IQuestions;
   checkAnswer: (selectedAnswer: string) => void;
 }
 

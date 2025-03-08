@@ -50,5 +50,11 @@ export const useQuiz = () => {
 		}
 		setCurrentQuestionIndex(currentQuestionIndex+1);
 	}
-	return {questions, currentQuestionIndex, checkAnswer, score};
+
+	const restartQuiz = () => {
+		setCurrentQuestionIndex(0);
+		setScore(0);
+	  };
+	  
+	return {questions, currentQuestionIndex, checkAnswer, score, restartQuiz};
 }
