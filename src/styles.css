@@ -23,6 +23,13 @@ body {
 	margin-top: 20px;
   }
   
+  .question {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+  }
+  
+  /* Options styles */
   .options-container {
 	display: flex;
 	flex-direction: column;
@@ -36,10 +43,16 @@ body {
 	border-radius: 5px;
 	cursor: pointer;
 	font-size: 16px;
+	transition: background-color 0.3s ease;
   }
   
   button:hover {
 	background-color: #007bff;
 	color: #fff;
+  }
+  
+  /* Space between options and next button */
+  .next-button {
+	margin-top: 20px;
   }
   
